@@ -162,7 +162,7 @@ button {
 .visually-hidden {
     margin: 0;
     padding: 0;
-    visibility: hidden;
+    opacity: 0;
     height: 0;
     width: 0;
 }
