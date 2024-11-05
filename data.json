@@ -1,0 +1,104 @@
+[
+	{
+		"title": "Work",
+		"timeframes": {
+			"daily": {
+				"current": 5,
+				"previous": 7
+			},
+			"weekly": {
+				"current": 22,
+				"previous": 26
+			},
+			"monthly": {
+				"current": 63,
+				"previous": 68
+			}
+		}
+	},
+	{
+		"title": "Play",
+		"timeframes": {
+			"daily": {
+				"current": 2,
+				"previous": 2
+			},
+			"weekly": {
+				"current": 10,
+				"previous": 18
+			},
+			"monthly": {
+				"current": 44,
+				"previous": 49
+			}
+		}
+	},
+	{
+		"title": "Study",
+		"timeframes": {
+			"daily": {
+				"current": 1,
+				"previous": 1
+			},
+			"weekly": {
+				"current": 8,
+				"previous": 16
+			},
+			"monthly": {
+				"current": 33,
+				"previous": 39
+			}
+		}
+	},
+	{
+		"title": "Exercise",
+		"timeframes": {
+			"daily": {
+				"current": 2,
+				"previous": 1
+			},
+			"weekly": {
+				"current": 6,
+				"previous": 12
+			},
+			"monthly": {
+				"current": 31,
+				"previous": 38
+			}
+		}
+	},
+	{
+		"title": "Social",
+		"timeframes": {
+			"daily": {
+				"current": 1,
+				"previous": 3
+			},
+			"weekly": {
+				"current": 9,
+				"previous": 15
+			},
+			"monthly": {
+				"current": 21,
+				"previous": 23
+			}
+		}
+	},
+	{
+		"title": "Self Care",
+		"timeframes": {
+			"daily": {
+				"current": 1,
+				"previous": 1
+			},
+			"weekly": {
+				"current": 2,
+				"previous": 2
+			},
+			"monthly": {
+				"current": 17,
+				"previous": 11
+			}
+		}
+	}
+]

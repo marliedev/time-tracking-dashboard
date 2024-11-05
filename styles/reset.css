@@ -1,0 +1,79 @@
+/* ----------------- */
+/*      RESET        */
+/* ----------------- */
+
+/* Use a more-intuitive box-sizing model. */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+    margin: 0;
+
+}
+
+/* 
+Prevent font size inflation 
+*/
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/*
+Add accessible line-height and improve text rendering
+*/
+body {
+    min-height: 100vh;
+    line-height: calc(1em + 0.5rem);
+    -webkit-font-smoothing: antialiased;
+
+}
+
+/*
+Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/*
+Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*
+ Balance the headline text when wrapping
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+p,
+li,
+figcaption {
+    text-wrap: pretty;
+    max-width: 65ch;
+}
