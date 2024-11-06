@@ -148,10 +148,11 @@ button {
     }
 
     &:focus-visible {
-        outline: 2px solid var(--clr-dark-gray);
+        outline: 3px solid hsl(var(--clr-primary-blue));
+        color: hsla(var(--clr-white), 1);
         outline-offset: 2px;
-        background-position: 0 0;
-        box-shadow: 0px 8px 16px rgba(199, 71, 62, 0.2);
+        opacity: 1;
+        font-weight: 400;
     }
 }
 
@@ -320,8 +321,21 @@ button {
             color: hsla(var(--clr-white), .6);
         }
 
-        svg:hover path {
-            fill: white;
+        svg {
+            margin: 0.25rem;
+
+            &:hover path {
+                fill: white;
+            }
+
+            &:focus-visible {
+                outline-offset: 8px;
+                outline: 2px solid hsl(var(--clr-primary-blue));
+
+                path {
+                    fill: white;
+                }
+            }
         }
 
     }

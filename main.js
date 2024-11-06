@@ -54,7 +54,6 @@ async function populateActivities(data) {
 
 /* create the different activity fields and append them to the container */
 const appendActivity = (activity) => {
-	//console.log('append activity');
 	const activityItem = document.createElement('div');
 	const activityId = kebabCase(activity.title);
 	activityItem.classList.add('activity-card', 'activity-card--' + activityId);
@@ -65,7 +64,8 @@ const appendActivity = (activity) => {
           <div class="activity-card__info">
             <div class="header">
               <h2>${activity.title}</h2>
-              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+			  
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg" role="button" arial-label="Click to open the Activity Menu" tabindex="0">
                 <path
                   d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
                   fill="#BBC0FF" fill-rule="evenodd" />
